@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ragnarok_bg.qm</file>
+        <file alias="ca">locale/ragnarok_ca.qm</file>
+        <file alias="cs">locale/ragnarok_cs.qm</file>
+        <file alias="da">locale/ragnarok_da.qm</file>
+        <file alias="de">locale/ragnarok_de.qm</file>
+        <file alias="en">locale/ragnarok_en.qm</file>
+        <file alias="en_US">locale/ragnarok_en_US.qm</file>
+        <file alias="es">locale/ragnarok_es.qm</file>
+        <file alias="fi">locale/ragnarok_fi.qm</file>
+        <file alias="fr_FR">locale/ragnarok_fr_FR.qm</file>
+        <file alias="hr">locale/ragnarok_hr.qm</file>
+        <file alias="it">locale/ragnarok_it.qm</file>
+        <file alias="ja">locale/ragnarok_ja.qm</file>
+        <file alias="ko_KR">locale/ragnarok_ko_KR.qm</file>
+        <file alias="nl">locale/ragnarok_nl.qm</file>
+        <file alias="pl">locale/ragnarok_pl.qm</file>
+        <file alias="pt">locale/ragnarok_pt.qm</file>
+        <file alias="pt_BR">locale/ragnarok_pt_BR.qm</file>
+        <file alias="ro_RO">locale/ragnarok_ro_RO.qm</file>
+        <file alias="ru">locale/ragnarok_ru.qm</file>
+        <file alias="sk">locale/ragnarok_sk.qm</file>
+        <file alias="sv">locale/ragnarok_sv.qm</file>
+        <file alias="tr">locale/ragnarok_tr.qm</file>
+        <file alias="uk">locale/ragnarok_uk.qm</file>
+        <file alias="zh_CN">locale/ragnarok_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ragnarok_zh_TW.qm</file>
+    </qresource>
+</RCC>

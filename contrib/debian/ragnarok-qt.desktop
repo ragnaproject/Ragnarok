@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ragnarok
+Comment=Ragnarok P2P Cryptocurrency
+Comment[fr]=Ragnarok, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ragnarok, eşten eşe kriptografik sanal para birimi
+Exec=ragnarok-qt %u
+Terminal=false
+Type=Application
+Icon=ragnarok128
+MimeType=x-scheme-handler/ragnarok;
+Categories=Office;Finance;

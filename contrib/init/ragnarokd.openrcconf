@@ -1,0 +1,26 @@
+# /etc/conf.d/ragnarokd: config file for /etc/init.d/ragnarokd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ragnarok/ragnarok.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ragnarokd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ragnarokd.pid"
+
+# Where to write ragnarokd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ragnarokd"
+
+# User and group to own ragnarokd process
+#BITCOIND_USER="ragnarok"
+#BITCOIND_GROUP="ragnarok"
+
+# Path to ragnarokd executable
+#BITCOIND_BIN="/usr/bin/ragnarokd"
+
+# Nice value to run ragnarokd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
