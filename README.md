@@ -28,7 +28,7 @@ Ragnarok Coin is an open source virtual unit of account, processed via publicly 
 
 ## Reward Distribution
 <table>
-<tr><td><b>◆BLOCK HEIGHTS</b></td><td><b>◆TYPE</b></td><td><b>◆POS(%)</b></td><td><b>◆MN(%)</b></td><td><b>◆BLOCK REWARD</b></td></tr><td><b>◆COLLATERAL</b></td></tr>
+<tr><td><b>◆BLOCK HEIGHTS</b></td><td><b>◆TYPE</b></td><td><b>◆POS(%)</b></td><td><b>◆MN(%)</b></td><td><b>◆BLOCK REWARD</b></td><td><b>◆COLLATERAL</b></td></tr>
 <tr><td>1-1000</td><td>POW</td><td>1</td><td> 85% </td><td> 15% </td><td>10000</td></tr>
 <tr><td>1001-20000</td><td>POS</td><td>1</td><td> 85% </td><td> 15% </td><td>10000</td></tr>
 <tr><td>20001-40000</td><td>POS</td><td>40</td><td> 85% </td><td> 15% </td><td>10000</td></tr>
