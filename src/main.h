@@ -62,17 +62,17 @@ inline int64_t GetMstrNodCollateral(int nHeight){
       if(nHeight < 40001) {
         return 10000;
       } else if(nHeight < 70001) {
-        return 15000;
-      } else if(nHeight < 100001) {
-        return 25000;
-      } else if(nHeight < 200001) {
         return 30000;
+      } else if(nHeight < 100001) {
+        return 55000;
+      } else if(nHeight < 200001) {
+        return 80000;
       } else if(nHeight < 350001) {
-        return 35000;
-      } else if(nHeight < 1000001) {
-        return 45000;
+        return 100000;
+      } else if(nHeight < 500001) {
+        return 140000;
       } else {
-        return 50000;
+        return 200000;
       }
 
 }
