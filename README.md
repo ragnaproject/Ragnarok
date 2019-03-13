@@ -20,9 +20,9 @@ Ragnarok Coin is an open source virtual unit of account, processed via publicly 
 ### Nodes List 
 
 <table>
-<tr><td>addnode=178.128.207.233:8853</td></tr>
-<tr><td>addnode=174.138.9.14:8853</td></tr>
-<tr><td>addnode=174.138.14.163:8853</td></tr>
+<tr><td>addnode=178.128.207.233</td></tr>
+<tr><td>addnode=174.138.9.14</td></tr>
+<tr><td>addnode=174.138.14.163</td></tr>
 </table>
 
 
