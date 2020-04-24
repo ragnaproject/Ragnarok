@@ -2137,9 +2137,19 @@ int64_t GetBlockValue(int nHeight)
                 nSubsidy = 10 * COIN;
       } else if (nHeight <= 500000) {
                 nSubsidy = 5 * COIN;
+      } else if (nHeight <= 903500) {
+                nSubsidy = 3 * COIN;
+      } else if (nHeight <= 906000) {
+                nSubsidy = 6 * COIN;
+      } else if (nHeight <= 948300) {
+                nSubsidy = 2 * COIN;
+      } else if (nHeight <= 949800) {
+                nSubsidy = 8 * COIN;
+      } else if (nHeight <= 1203600) {
+                nSubsidy = 4 * COIN;
       } else {
-          nSubsidy = 3 * COIN;
-      }
+		 nSubsidy = 2 * COIN; 
+	  }
 
       // Check if we reached the coin max supply.
   	int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
