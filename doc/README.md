@@ -3,7 +3,7 @@ Ragnarok Core
 
 Setup
 ---------------------
-[Ragnarok Core](http://Ragnarokcoin.com) is the original Ragnarok client and it builds the backbone of the network. However, it downloads and stores the entire history of Ragnarok transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Ragnarok Core](https://ragnaproject.io) is the original Ragnarok client and it builds the backbone of the network. However, it downloads and stores the entire history of Ragnarok transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
