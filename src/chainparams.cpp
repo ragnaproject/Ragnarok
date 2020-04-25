@@ -11,9 +11,7 @@
 #include "random.h"
 #include "util.h"
 #include "utilstrencodings.h"
-
 #include <assert.h>
-
 #include <boost/assign/list_of.hpp>
 
 using namespace std;
@@ -54,12 +52,12 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x000008d3eb3cdeb69ecc0633491e34a1c805a5e0138bf39681becab859db6dc7"));
+    (     0, uint256("0x000008d3eb3cdeb69ecc0633491e34a1c805a5e0138bf39681becab859db6dc7"))
+    (849104, uint256("0xd65bba56d88d918a2a11648aee9f87b10fdbcdc8407ac9032a2476290396f3e1"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1535467290, // * UNIX timestamp of last checkpoint block
-    0,    // * total number of transactions between genesis and last checkpoint
-                //   (the tx=... number in the SetBestChain debug.log lines)
+    1587624301, // * UNIX timestamp of last checkpoint block
+    1699839,    // * total number of transactions between genesis and last checkpoint
     2000        // * estimated number of transactions per day after checkpoint
 };
 
@@ -114,6 +112,7 @@ public:
         nMaturity = 20;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 100000000 * COIN;
+        strDeveloperFeePayee = "rK9j4S4P5pBu7572jQtfVCYc4jVeH2qh17";
 
         nLastPOWBlock = 1000;
         nModifierUpdateBlock = 999999999;
@@ -144,9 +143,9 @@ public:
         assert(hashGenesisBlock == uint256("0x000008d3eb3cdeb69ecc0633491e34a1c805a5e0138bf39681becab859db6dc7"));
         assert(genesis.hashMerkleRoot == uint256("0xdcae3c18b672a0f347ec70c57b67a2edec3bfaaf7ba93102eb6fbca345fdc746"));
 
-	vSeeds.push_back(CDNSSeedData("178.128.207.233", "178.128.207.233"));
-        vSeeds.push_back(CDNSSeedData("174.138.14.163", "174.138.14.163"));
-	vSeeds.push_back(CDNSSeedData("174.138.9.14", "174.138.9.14"));
+        vSeeds.push_back(CDNSSeedData("s0", "s0.ragnaproject.io"));
+        vSeeds.push_back(CDNSSeedData("s1", "s1.ragnaproject.io"));
+        vSeeds.push_back(CDNSSeedData("s2", "s2.ragnaproject.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 122);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 60);
@@ -217,6 +216,7 @@ public:
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 43199500 * COIN;
+        strDeveloperFeePayee = "---";
         nZerocoinStartHeight = 201576;
         nZerocoinStartTime = 1524711188;
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
@@ -227,8 +227,9 @@ public:
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1515616140;
         genesis.nNonce = 79855;
+        strDeveloperFeePayee = "---";
 
-	       hashGenesisBlock = genesis.GetHash();
+	    hashGenesisBlock = genesis.GetHash();
         //assert(hashGenesisBlock == uint256("0x000007cff63ef602a51bf074e384b3516f0dd202f14d52f7c8c9b1af9423ab2e"));
 
         vFixedSeeds.clear();
@@ -334,7 +335,8 @@ public:
         nDefaultPort = 51478;
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Unit test mode doesn't have any DNS seeds.
-
+        strDeveloperFeePayee = "---";
+        
         fRequireRPCPassword = false;
         fMiningRequiresPeers = false;
         fDefaultConsistencyChecks = true;

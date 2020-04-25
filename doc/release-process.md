@@ -23,10 +23,10 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/eastcoastcrypto/gitian.sigs.git
-    git clone https://github.com/eastcoastcrypto/ragnarok-detached-sigs.git
+    git clone https://github.com/ragnaproject/gitian.sigs.git
+    git clone https://github.com/ragnaproject/ragnarok-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/eastcoastcrypto/ragnarok.git
+    git clone https://github.com/ragnaproject/ragnarok.git
 
 ### Ragnarok maintainers/release engineers, suggestion for writing release notes
 
@@ -189,7 +189,7 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [ragnarok-detached-sigs](https://github.com/eastcoastcrypto/ragnarok-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [ragnarok-detached-sigs](https://github.com/ragnaproject/ragnarok-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
@@ -265,6 +265,6 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/eastcoastcrypto/Ragnarok/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/ragnaproject/Ragnarok/releases/new) with a link to the archived release notes.
 
   - Celebrate

@@ -41,7 +41,7 @@ The following are developer notes on how to build Ragnarok on your native platfo
 
 Development
 ---------------------
-The Ragnarok repo's [root README](https://github.com/eastcoastcrypto/Ragnarok/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Ragnarok repo's [root README](https://github.com/ragnaproject/Ragnarok/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

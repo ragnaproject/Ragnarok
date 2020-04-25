@@ -201,7 +201,7 @@ public:
 
     explicit CScriptNum(const std::vector<unsigned char>& vch, bool fRequireMinimal)
     {
-        if (vch.size() > nMaxNumSize) {
+        if (vch.size() > nDefaultMaxNumSize) {
             throw scriptnum_error("script number overflow");
         }
         if (fRequireMinimal && vch.size() > 0) {
@@ -322,7 +322,7 @@ public:
         return result;
     }
 
-    static const size_t nMaxNumSize = 4;
+    static const size_t nDefaultMaxNumSize = 4;
 
 private:
     static int64_t set_vch(const std::vector<unsigned char>& vch)

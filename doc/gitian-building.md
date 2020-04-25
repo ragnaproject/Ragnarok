@@ -281,7 +281,7 @@ Clone the git repositories for ragnarok and gitian and then checkout the ragnaro
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/eastcoastcrypto/Ragnarok.git
+git clone https://github.com/ragnaproject/Ragnarok.git
 cd ragnarok
 git checkout v${VERSION}
 cd ..
@@ -350,7 +350,7 @@ Output from `gbuild` will look something like
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
     Resolving deltas: 100% (25724/25724), done.
-    From https://github.com/eastcoastcrypto/Ragnarok
+    From https://github.com/ragnaproject/Ragnarok
     ... (new tags, new branch etc)
     --- Building for precise x86_64 ---
     Stopping target if it is up
@@ -377,7 +377,7 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/eastcoastcrypto/Ragnarok.git
+URL=https://github.com/ragnaproject/Ragnarok.git
 COMMIT=b616fb8ef0d49a919b72b0388b091aaec5849b96
 ./bin/gbuild --commit ragnarok=${COMMIT} --url ragnarok=${URL} ../Ragnarok/contrib/gitian-descriptors/gitian-linux.yml
 ./bin/gbuild --commit ragnarok=${COMMIT} --url ragnarok=${URL} ../Ragnarok/contrib/gitian-descriptors/gitian-win.yml
@@ -408,6 +408,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[eastcoastcrypto/gitian.sigs](https://github.com/eastcoastcrypto/gitian.sigs/) repository, or if that's not possible to create a pull
+[ragnaproject/gitian.sigs](https://github.com/ragnaproject/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.

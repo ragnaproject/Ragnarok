@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/eastcoastcrypto/Ragnarok"
+- "url": "https://github.com/ragnaproject/Ragnarok"
   "dir": "ragnarok"
 files: []
 script: |

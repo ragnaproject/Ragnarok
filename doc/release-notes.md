@@ -2,11 +2,11 @@
 
 Ragnarok Core version *version* is now available from:
 
-  <https://github.com/eastcoastcrypto/Ragnarok/releases>
+  <https://github.com/ragnaproject/Ragnarok/releases>
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/eastcoastcrypto/Ragnarokita/issues>
+  <https://github.com/ragnaproject/Ragnarokita/issues>
 
 Mandatory Update
 ==============
