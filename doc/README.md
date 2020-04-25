@@ -3,7 +3,7 @@ Ragnarok Core
 
 Setup
 ---------------------
-[Ragnarok Core](http://Ragnarokcoin.com) is the original Ragnarok client and it builds the backbone of the network. However, it downloads and stores the entire history of Ragnarok transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Ragnarok Core](https://ragnaproject.io) is the original Ragnarok client and it builds the backbone of the network. However, it downloads and stores the entire history of Ragnarok transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -26,18 +26,19 @@ Drag Ragnarok-Qt to your applications folder, and then run Ragnarok-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Ragnarok Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
-for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php) or on the [Ragnarok Forum](http://Ragnarokcoin.com/).
-* Join one of our Discord groups [Ragnarok Discord Groups](https://discord.gg/YcnvMqt).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=5017835)
+* Join one of our Discord groups [Ragnarok Discord Server](https://discord.gg/9nFBH5H).
 
 Building
 ---------------------
 The following are developer notes on how to build Ragnarok on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
-- [OSX Build Notes](build-osx.md)
+- [Dependencies](dependencies.md)
+- [macOS Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
+- [Windows Build Notes](build-windows.md)
 - [Gitian Building Guide](gitian-building.md)
+
 
 Development
 ---------------------
@@ -56,7 +57,7 @@ The Ragnarok repo's [root README](https://github.com/ragnaproject/Ragnarok/blob/
 ### Resources
 
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) .
-* Join the [Ragnarok-Dev] Discord groups [Ragnarok Discord Groups](https://discord.gg/YcnvMqt).
+* Join the [Ragnarok Discord Server](https://discord.gg/9nFBH5H).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

@@ -146,6 +146,9 @@ public:
         vSeeds.push_back(CDNSSeedData("s0", "s0.ragnaproject.io"));
         vSeeds.push_back(CDNSSeedData("s1", "s1.ragnaproject.io"));
         vSeeds.push_back(CDNSSeedData("s2", "s2.ragnaproject.io"));
+        vSeeds.push_back(CDNSSeedData("s3", "s3.ragnaproject.io"));
+        vSeeds.push_back(CDNSSeedData("s4", "s4.ragnaproject.io"));
+        vSeeds.push_back(CDNSSeedData("s5", "s5.ragnaproject.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 122);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 60);
@@ -336,7 +339,7 @@ public:
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Unit test mode doesn't have any DNS seeds.
         strDeveloperFeePayee = "---";
-        
+
         fRequireRPCPassword = false;
         fMiningRequiresPeers = false;
         fDefaultConsistencyChecks = true;
