@@ -50,7 +50,7 @@ static const int MAX_URI_LENGTH = 255;
 
 #define QAPP_ORG_NAME "Ragnarok"
 #define QAPP_ORG_DOMAIN "ragnarok.org"
-#define QAPP_APP_NAME_DEFAULT "Ragnarok-Qt"
-#define QAPP_APP_NAME_TESTNET "Ragnarok-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "RAGNAROK-Qt"
+#define QAPP_APP_NAME_TESTNET "RAGNAROK-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H
