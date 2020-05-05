@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Ragnarok-Qt</string>
+  <string>RAGNAROK-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.ragnarok.Ragnarok-Qt</string>
+  <string>io.ragnarok.RAGNAROK-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
